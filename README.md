@@ -20,7 +20,7 @@ Anyone shipping a fix with tests and wanting evidence, not optimism: solo develo
 ## Five-minute try
 
 ```sh
-git clone <this repository> red-first-gate
+git clone https://github.com/ekinkilickaya95-byte/red-first-gate.git
 cd red-first-gate/example
 ./try.sh
 ```
@@ -99,7 +99,7 @@ Add `--json` for machine-readable output (`{"check", "ok", ..., "problems": [...
 
 ## Supported versions
 
-Python 3.9–3.13 on macOS and Linux (CI matrix in `.github/workflows/ci.yml`). Windows is untested.
+Python 3.9, 3.12 and 3.13 on macOS and Linux (CI matrix in `.github/workflows/ci.yml`); 3.11 verified locally; 3.10 untested. Windows is untested.
 
 ## Origin
 
